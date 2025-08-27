@@ -85,7 +85,7 @@ function App() {
           <div className="welcome-content">
             <h1 className="main-title">
               Happy Birthday
-              <span className="name-highlight">Beautiful</span>
+              <span className="name-highlight">Beautiful 💕</span>
             </h1>
             <div className="heart-divider">
               <Heart className="text-pink-500" size={30} />
@@ -96,7 +96,7 @@ function App() {
               every moment magical just by being yourself.
             </p>
             <div className="scroll-indicator">
-              <span>Scroll to explore our love story</span>
+              <span>Scroll to explore my greetings</span>
               <div className="scroll-arrow"></div>
             </div>
           </div>
@@ -106,25 +106,25 @@ function App() {
       {/* Section 2: About Her */}
       <section className="section about-section">
         <div className="container">
-          <h2 className="section-title">About My Amazing Girlfriend</h2>
+          <h2 className="section-title">My Amazing Girl🌹</h2>
           <div className="about-grid">
             <div className="about-text">
               <div className="quality-card">
                 <h3>Your Beautiful Soul</h3>
-                <p>Your kindness radiates like sunshine, touching everyone around you. Your compassion 
-                knows no bounds, and your heart is pure gold. You have this incredible ability to make 
-                people feel valued and loved.</p>
+                <p>Your kindness is like sunshine, touching everyone around you.  You have this incredible ability to make 
+                people feel valued and loved. I am one of them. Your compassion 
+                knows no bounds, and your heart is pure gold.</p>
               </div>
               <div className="quality-card">
                 <h3>Your Brilliant Mind</h3>
-                <p>Your intelligence amazes me every day. The way you see the world, solve problems, 
-                and engage in deep conversations shows just how remarkable you are. You inspire me to 
-                be better.</p>
+                <p>You are a lot more intelligent than you think. You achieved so much with your under-utilized mind.
+                  Your peak usage of your brain can achieve much more things beyond your imagination and I hope you explore that potential. 
+                  </p>
               </div>
               <div className="quality-card">
                 <h3>Your Radiant Spirit</h3>
-                <p>Your laughter is music to my ears, and your smile can light up the darkest days. 
-                Your energy is infectious, and your passion for life motivates everyone around you.</p>
+                <p>Your laughter is as pleasant as a gentle breeze, and your smile is as calming as a sunset. 
+                Don't let it fade away sweetheart. Your smile has the power to brighten even the darkest days.</p>
               </div>
             </div>
             <div className="photo-frame polaroid">
@@ -140,33 +140,33 @@ function App() {
       {/* Section 3: Best Moments */}
       <section className="section memories-section">
         <div className="container">
-          <h2 className="section-title">Our Beautiful Memories Together</h2>
+          <h2 className="section-title">Some Beautiful Memories With You</h2>
           <div className="memories-grid">
             <div className="memory-card">
               <div className="memory-icon">
                 <Heart className="text-red-400" size={40} />
               </div>
-              <h3>Our First Date</h3>
-              <p>That magical evening when everything just clicked. The nervous excitement, the endless 
-              conversation, and the moment I knew you were someone special. Time stood still, and I 
-              never wanted it to end.</p>
+              <h3>First Conversation</h3>
+              <p>Never thought I would find my love in such an unexpected way.
+                Never thought a simple "Hello" would lead to a bag of happiness.
+                That day marked the beginning of our beautiful journey together, and I cherish that moment forever.
+              </p>
             </div>
             <div className="memory-card">
               <div className="memory-icon">
                 <Star className="text-yellow-400" size={40} />
               </div>
-              <h3>Weekend Adventures</h3>
-              <p>All those spontaneous trips, lazy Sunday mornings, and exploring new places together. 
-              Every adventure with you becomes a treasured memory, no matter how big or small.</p>
+              <h3>First Ice Cream</h3>
+              <p>That delightful day when we had an ice cream in the canteen. That was the only moment I truly remember myself eating a cone. Do you remember why? Because you are with me.</p>
             </div>
             <div className="memory-card">
               <div className="memory-icon">
                 <Flower2 className="text-pink-400" size={40} />
               </div>
-              <h3>Quiet Moments</h3>
-              <p>The simple moments that mean the most - holding hands while watching movies, 
-              cooking dinner together, or just talking until the early hours. These are the 
-              moments I treasure most.</p>
+              <h3>First Video Call</h3>
+              <p>
+  The embarrassment I felt during that call is still unforgettable. That embarrassment turned into joy once you started enjoying my struggle to talk on video call. That moment brought us even closer together.
+</p>
             </div>
             <div className="photo-frame heart-frame">
               <div className="photo-placeholder">
@@ -184,36 +184,36 @@ function App() {
           <h2 className="section-title">Infinite Reasons Why I Love You</h2>
           <div className="reasons-grid">
             <div className="reason-card">
-              <div className="reason-number">1</div>
-              <p>Your laugh is the most beautiful sound in the world</p>
+              <div className="reason-number">🤍</div>
+              <p>Your smile is the most beautiful thing I would like to see every day.</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">2</div>
-              <p>The way you care for others with such genuine warmth</p>
+              <div className="reason-number">🤍</div>
+              <p>The way you care for me with such genuine warmth</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">3</div>
-              <p>Your strength and resilience inspire me every day</p>
+              <div className="reason-number">🤍</div>
+              <p>Your ego less nature is something I admire deeply.</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">4</div>
-              <p>How you make even ordinary moments feel extraordinary</p>
+              <div className="reason-number">🤍</div>
+              <p>How you make even ordinary moments feel extraordinary just through your talks.</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">5</div>
-              <p>Your beautiful dreams and ambitious spirit</p>
+              <div className="reason-number">🤍</div>
+              <p>The way you want to lead your life.</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">6</div>
+              <div className="reason-number">🤍</div>
               <p>The way you love with your whole heart</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">7</div>
-              <p>Your wisdom and the thoughtful advice you give</p>
+              <div className="reason-number">🤍</div>
+              <p>Your pretty and charming face that makes my heart skip a beat.</p>
             </div>
             <div className="reason-card">
-              <div className="reason-number">8</div>
-              <p>How you make me want to be the best version of myself</p>
+              <div className="reason-number">🤍</div>
+              <p>How you want me to be the best version of myself</p>
             </div>
           </div>
           <div className="infinite-love">
