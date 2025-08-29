@@ -137,8 +137,8 @@ function App() {
             </div>
             <div className="photo-frame polaroid">
               <div className="photo-placeholder">
-                <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg" alt="Our Photo 1" />
-                <div className="photo-caption">Our Photo 1</div>
+                <img src="/zz.jpg" alt="Our Photo 1" />
+                <div className="photo-caption">Simmi🤍</div>
               </div>
             </div>
           </div>
