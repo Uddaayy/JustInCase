@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Heart, Music, VolumeX, Volume2, Star, Flower2 } from 'lucide-react';
 import './App.css';
 
@@ -15,6 +15,7 @@ interface FloatingElement {
 function App() {
   const [floatingElements, setFloatingElements] = useState<FloatingElement[]>([]);
   const [musicPlaying, setMusicPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     // Create floating elements
@@ -34,8 +35,12 @@ function App() {
   }, []);
 
   const toggleMusic = () => {
+    if (musicPlaying) {
+      audioRef.current?.pause();
+    } else {
+      audioRef.current?.play();
+    }
     setMusicPlaying(!musicPlaying);
-    // In a real implementation, you would control actual audio playback here
   };
 
   const renderFloatingElement = (element: FloatingElement) => {
@@ -60,6 +65,9 @@ function App() {
 
   return (
     <div className="app">
+      {/* hidden audio player */}
+      <audio ref={audioRef} src="/yx.mp3" loop />
+
       {/* Floating Background Elements */}
       <div className="floating-bg">
         {floatingElements.map(renderFloatingElement)}
@@ -170,8 +178,8 @@ function App() {
             </div>
             <div className="photo-frame heart-frame">
               <div className="photo-placeholder">
-                <img src="https://images.pexels.com/photos/1024992/pexels-photo-1024992.jpeg" alt="Our Photo 2" />
-                <div className="photo-caption">Our Photo 2</div>
+                <img src="/xy.jpg" alt="Our Photo 2" />
+                <div className="photo-caption">🤍</div>
               </div>
             </div>
           </div>
