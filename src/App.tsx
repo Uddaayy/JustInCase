@@ -93,7 +93,7 @@ function App() {
           <div className="welcome-content">
             <h1 className="main-title">
               Happy Birthday
-              <span className="name-highlight">utiful 💕</span>
+              <span className="name-highlight">Beautiful 💕</span>
             </h1>
             <div className="heart-divider">
               <Heart className="text-pink-500" size={30} />
