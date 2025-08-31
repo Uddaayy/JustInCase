@@ -235,23 +235,22 @@ function App() {
       {/* Section 5: Future Together */}
       <section className="section future-section">
         <div className="container">
-          <h2 className="section-title">Our Beautiful Future Together</h2>
+          <h2 className="section-title">Your Beautiful Future </h2>
           <div className="future-content">
             <div className="future-dreams">
-              <h3>Dreams We'll Chase Together</h3>
-              <p>I see so many beautiful tomorrows with you by my side. Adventures we'll take, 
-              goals we'll achieve, challenges we'll overcome together, and love that will only 
-              grow stronger with time.</p>
-              
               <h3>Building Something Beautiful</h3>
               <p>Every day with you is a step towards building something incredible - a life 
               filled with love, laughter, shared dreams, and endless support for each other. 
-              I can't wait to see what we'll create together.</p>
-              
-              <h3>Forever and Always</h3>
-              <p>With you, I've found my forever. Through every season, every milestone, 
-              every ordinary Tuesday - I want to experience it all with you. You're not just 
-              my girlfriend; you're my best friend, my partner, my everything.</p>
+              </p>
+
+              <h3>Dreams You'll Chase </h3>
+              <p>I see so many beautiful tomorrows with you by my side. Adventures you'll take, 
+              goals you'll achieve, challenges you'll overcome, and love that will only 
+              grow stronger with time.</p>
+
+              <h3>Always Lovely</h3>
+              <p>With you, I've found something really incredible. I don't know how this is going to unfold but You're not just 
+              my girlfriend; you're my best friend, my everything. </p>
             </div>
             <div className="future-visual">
               <div className="heart-tree">
