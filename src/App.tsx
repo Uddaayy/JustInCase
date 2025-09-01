@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Heart, Music, VolumeX, Volume2, Star, Flower2 } from 'lucide-react';
 import './App.css';
-
+^@;
 interface FloatingElement {
   id: number;
   type: 'heart' | 'sparkle' | 'flower';
